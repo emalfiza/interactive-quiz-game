@@ -1,3 +1,61 @@
-h1 {
-    color: yellow;
+/* google font Amiri and Tomorrow imported from the google font the entire project --
+▓█████  ███▄ ▄███▓ ▄▄▄       ██▓         █████▒██▓▒███████▒ ▄▄▄         
+▓█   ▀ ▓██▒▀█▀ ██▒▒████▄    ▓██▒       ▓██   ▒▓██▒▒ ▒ ▒ ▄▀░▒████▄       
+▒███   ▓██    ▓██░▒██  ▀█▄  ▒██░       ▒████ ░▒██▒░ ▒ ▄▀▒░ ▒██  ▀█▄     
+▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ▒██░       ░▓█▒  ░░██░  ▄▀▒   ░░██▄▄▄▄██    
+░▒████▒▒██▒   ░██▒ ▓█   ▓██▒░██████▒   ░▒█░   ░██░▒███████▒ ▓█   ▓██▒   
+░░ ▒░ ░░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒░▓  ░    ▒ ░   ░▓  ░▒▒ ▓░▒░▒ ▒▒   ▓▒█░   
+ ░ ░  ░░  ░      ░  ▒   ▒▒ ░░ ░ ▒  ░    ░      ▒ ░░░▒ ▒ ░ ▒  ▒   ▒▒ ░   
+   ░   ░      ░     ░   ▒     ░ ░       ░ ░    ▒ ░░ ░ ░ ░ ░  ░   ▒      
+   ░  ░       ░         ░  ░    ░  ░           ░    ░ ░          ░  ░   
+                                                  ░                               
+                                                                                   */
+
+@import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
+
+body {
+    animation: colorchange 50s infinite;
+    /* animation-name followed by duration in seconds*/
+    /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 50s infinite;
+    /* Chrome and Safari */
+}
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: green;
+    }
+    100% {
+        background: red;
+    }
+}
+
+@-webkit-keyframes colorchange
+/* Safari and Chrome - necessary duplicate */
+
+    {
+    0% {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: green;
+    }
+    100% {
+        background: red;
+    }
 }
