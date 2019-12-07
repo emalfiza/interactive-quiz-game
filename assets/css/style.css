@@ -12,6 +12,7 @@
                                                                                   
                                                                                    
 google font Amiri and Tomorrow imported from the google font the entire project*/
+
 @import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
 
 /* Animation colour change css code copied from CodePen and slightly changed by myself */
@@ -96,6 +97,7 @@ body {
 }
 
 /* main content of the game page */
+
 #center {
     position: absolute;
     width: 50%;
@@ -112,7 +114,113 @@ body {
     margin: auto;
 }
 
+/* */
+
+#fullQuiz {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 20px;
+    animation: newColorChange 50s infinite;
+    -webkit-animation: newColorChange 50s infinite;
+    /* Chrome and Safari */
+}
+
+@keyframes newColorChange {
+    0% {
+        border-color: white;
+        box-shadow: 0 0 30px black;
+    }
+    50% {
+        border-color: black;
+        box-shadow: 0 0 30px white;
+    }
+}
+
+@-webkit-keyframes newColorChange {
+    0% {
+        border: 5px solid white;
+        box-shadow: 0 0 30px black;
+    }
+    50% {
+        border: 5px solid black;
+        box-shadow: 0 0 30px white;
+    }
+}
+
+#quizDiv {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quiz {
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+h3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+label {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#questionDiv {
+    margin: 0 auto;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+input[type="radio"] {
+    padding: 10px 10px;
+}
+
+#startButton {
+    width: 20%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Amiri', sans-serif;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 40px;
+}
+
+#submitButton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#startButton:focus {
+    border-color: red;
+}
+
 /* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
+
 footer {
     background-color: #343a40!important;
     color: #fafafa;

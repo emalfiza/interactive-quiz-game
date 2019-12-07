@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <!-- Bootstrap navbar to hold the nav bar for the page -->
     <header>
         <nav id="mainNav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
@@ -43,7 +42,7 @@
                         </li>
                     </ul>
                 </div>
-                </<div>
+            </div>
         </nav>
     </header>
 
@@ -53,10 +52,16 @@
         <!-- section to hold content for quiz game -->
         <section id="game" class="min-vw-100 min-vh-100">
             <!-- Bootsttrap predefined button class from the bootstarp ducomentation -->
-            <div id="center">
+            <div id="fullQuiz">
+                <div>
+                    <h1 id="heading1">TAKE THE QUIZ</h1>
+                </div>
                 <button id="physics" type="button" class="btn btn-primary">Physics</button>
                 <button id="maths" type="button" class="btn btn-primary">Maths</button>
                 <button id="general" type="button" class="btn btn-primary">General Knowledge</button>
+                <button id="startButton" type="button">Start!</button>
+            </div>
+            <div id="quizDiv">
             </div>
         </section>
 
@@ -116,7 +121,10 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous">
     </script>
-    <script src="assets/js/main.js">
+    <!-- Local JavaScript files links -->
+    <script type="text/javascript" src="assets/js/main.js">
+    </script>
+    <script type="text/javascript" src="assets/js/questions.js">
     </script>
 </body>
 
