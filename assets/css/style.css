@@ -1,4 +1,4 @@
-/* google font Amiri and Tomorrow imported from the google font the entire project --
+/* 
 ▓█████  ███▄ ▄███▓ ▄▄▄       ██▓         █████▒██▓▒███████▒ ▄▄▄         
 ▓█   ▀ ▓██▒▀█▀ ██▒▒████▄    ▓██▒       ▓██   ▒▓██▒▒ ▒ ▒ ▄▀░▒████▄       
 ▒███   ▓██    ▓██░▒██  ▀█▄  ▒██░       ▒████ ░▒██▒░ ▒ ▄▀▒░ ▒██  ▀█▄     
@@ -9,35 +9,36 @@
    ░   ░      ░     ░   ▒     ░ ░       ░ ░    ▒ ░░ ░ ░ ░ ░  ░   ▒      
    ░  ░       ░         ░  ░    ░  ░           ░    ░ ░          ░  ░   
                                                   ░                               
-                                                                                   */
-
+                                                                                  
+                                                                                   
+google font Amiri and Tomorrow imported from the google font the entire project*/
 @import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
 
-/* Animation colour change css code copied and slightly changed from CodePen */
+/* Animation colour change css code copied from CodePen and slightly changed by myself */
 
 body {
-    animation: colorchange 30s infinite;
+    animation: colorchange 45s infinite;
     /* animation-name followed by duration in seconds*/
     /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 30s infinite;
+    -webkit-animation: colorchange 45s infinite;
     /* Chrome and Safari */
 }
 
 @keyframes colorchange {
     0% {
-        background: red;
+        background: #ff0000;
     }
     25% {
-        background: yellow;
+        background: #ffc107;
     }
     50% {
-        background: blue;
+        background: #0000ff;
     }
     75% {
-        background: green;
+        background: #008000;
     }
     100% {
-        background: red;
+        background: #ff0000;
     }
 }
 
@@ -46,20 +47,29 @@ body {
 
     {
     0% {
-        background: red;
+        background: #ff0000;
     }
     25% {
-        background: yellow;
+        background: #ffc107;
     }
     50% {
-        background: blue;
+        background: #0000ff;
     }
     75% {
-        background: green;
+        background: #008000;
     }
     100% {
-        background: red;
+        background: #ff0000;
     }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* to have smooth scroll effect */
+    scroll-behavior: smooth;
 }
 
 /* Nav bar of the page */
@@ -85,15 +95,24 @@ body {
     transition: color 300ms linear, font-weight 300ms linear;
 }
 
+/* main content of the game page */
+#center {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 50%;
+    left: 25%;
+    margin: auto;
+    border-radius: 20px;
+}
 
+.btn-primary {
+    font-family: 'Amiri', Sans-Serif;
+    position: relative;
+    margin: auto;
+}
 
-
-
-
-
-
-/* --Footer codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute*/
-
+/* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
 footer {
     background-color: #343a40!important;
     color: #fafafa;
@@ -101,7 +120,7 @@ footer {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
