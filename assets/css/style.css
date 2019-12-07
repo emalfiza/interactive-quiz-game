@@ -13,11 +13,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
 
+/* Animation colour change css code copied and slightly changed from CodePen */
+
 body {
-    animation: colorchange 50s infinite;
+    animation: colorchange 30s infinite;
     /* animation-name followed by duration in seconds*/
     /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 50s infinite;
+    -webkit-animation: colorchange 30s infinite;
     /* Chrome and Safari */
 }
 
@@ -58,4 +60,92 @@ body {
     100% {
         background: red;
     }
+}
+
+/* Nav bar of the page */
+
+/* to have the color changed when the scroltop() is greater than the height - main.js changes the color */
+
+.scrolled {
+    box-shadow: 0 .5rem 1rem grey;
+    background-color: #ca2a67 !important;
+    transition: background-color 400ms linear;
+}
+
+/* to toggle the color back with a smooth transition */
+
+.fixed-top {
+    transition: background-color 400ms linear;
+}
+
+.active {
+    font-family: 'Amiri', sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: color 300ms linear, font-weight 300ms linear;
+}
+
+
+
+
+
+
+
+
+/* --Footer codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute*/
+
+footer {
+    background-color: #343a40!important;
+    color: #fafafa;
+    min-height: 100px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* --The font-family for the general-sub I copied from the bootsratp navbar "DevTool" of my home page
+because I wanted my footer font family to match my navbar--*/
+
+.general-sub {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 10px;
+}
+
+.special {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.social-links {
+    padding: 0;
+}
+
+.social-links li a i {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #252525;
 }
