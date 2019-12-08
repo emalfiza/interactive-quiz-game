@@ -99,14 +99,42 @@ body {
 /* main content of the game page */
 
 #center {
-    position: absolute;
+    position: relative;
     width: 50%;
-    height: 25%;
-    top: 50%;
-    left: 25%;
+    height: 25%;;
     margin: auto;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    animation: newColorChange 50s infinite;
+    -webkit-animation: newColorChange 50s infinite;
+    /* Chrome and Safari */
 }
+
+@keyframes newColorChange {
+    0% {
+        border-color: white;
+        box-shadow: 0 0 30px black;
+    }
+    50% {
+        border-color: black;
+        box-shadow: 0 0 30px white;
+    }
+}
+
+@-webkit-keyframes newColorChange {
+    0% {
+        border: 5px solid white;
+        box-shadow: 0 0 30px black;
+    }
+    50% {
+        border: 5px solid black;
+        box-shadow: 0 0 30px white;
+    }
+}
+
 
 .btn-primary {
     font-family: 'Amiri', Sans-Serif;
@@ -125,7 +153,9 @@ body {
     margin-left: 25%;
     border-radius: 20px;
     animation: newColorChange 50s infinite;
-    -webkit-animation: newColorChange 50s infinite;
+    -webkit-animation: newColorChange 50s infinite;  /* vendor-prefixed properties for Chrome and Safari */
+    -moz-animation: newColorChange 50s infinite;     /* vendor-prefixed properties for FireFox */
+    -o-animation: newColorChange 50s infinite;       /* vendor-prefixed properties for Opera */
     /* Chrome and Safari */
 }
 
@@ -268,11 +298,11 @@ because I wanted my footer font family to match my navbar--*/
     color: #fafafa;
     background-color: #8f8f8f;
     transition: all 0.40s ease-in-out;
-    -moz-transition: all 0.40s ease-in-out;
-    -webkit-transition: all 0.40s ease-in-out;
-    -o-transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;    /* vendor-prefixed properties for FireFox */ 
+    -webkit-transition: all 0.40s ease-in-out; /* vendor-prefixed properties for Chrome and Safari */ 
+    -o-transition: all 0.40s ease-in-out;      /* vendor-prefixed properties for Opera */ 
 }
 
 .social-links li a i:hover {
-    background-color: #252525;
+    background-color: #b35900;
 }

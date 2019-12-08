@@ -36,8 +36,8 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">STATS
 							<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Score</a></li>
                                 <li><a class="dropdown-item" href="#">Correct Answers</a></li>
+                                <li><a class="dropdown-item" href="#">Incorrect Answers</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -52,16 +52,18 @@
         <!-- section to hold content for quiz game -->
         <section id="game" class="min-vw-100 min-vh-100">
             <!-- Bootsttrap predefined button class from the bootstarp ducomentation -->
-            <div id="fullQuiz">
-                <div>
-                    <h1 id="heading1">TAKE THE QUIZ</h1>
-                </div>
+            <div id="center">
                 <button id="physics" type="button" class="btn btn-primary">Physics</button>
                 <button id="maths" type="button" class="btn btn-primary">Maths</button>
                 <button id="general" type="button" class="btn btn-primary">General Knowledge</button>
-                <button id="startButton" type="button">Start!</button>
             </div>
-            <div id="quizDiv">
+            <div id="fullQuiz">
+                <div>
+                    <h1 id="heading1">TAKE THE QUIZ</h1>
+                    <button id="startButton" type="button">Start!</button>
+                </div>
+                <div id="quizDiv">
+                </div>
             </div>
         </section>
 
@@ -125,6 +127,10 @@
     <script type="text/javascript" src="assets/js/main.js">
     </script>
     <script type="text/javascript" src="assets/js/questions.js">
+    </script>
+    <script type="text/javascript" src="assets/js/game.js">
+    </script>
+    <script type="text/javascript" src="assets/js/piechart.js">
     </script>
 </body>
 
