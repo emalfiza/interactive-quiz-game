@@ -307,7 +307,7 @@ because I wanted my footer font family to match my navbar--*/
     background-color: #b35900;
 }
 
-
+/* d3.js css codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=1010 and slightly changed by myself. */ 
 .pie {
   margin: 20px;
 }
@@ -328,7 +328,7 @@ svg {
 }
 
 .pie .name-text{
-  font-size: .8em;
+  font-size: 1.5em;
 }
 
 .pie .value-text{
