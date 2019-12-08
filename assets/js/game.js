@@ -2,9 +2,12 @@ var id = '';
 var allQuestions = [];
 var startOptions = $('#game>#center');
 var totalScore = 0;
+var incorrectAns = 0;
 var questionNumber = 0;
 var gameQuiz = $('#fullQuiz');
 gameQuiz.hide();
+var chart = document.createElement('div');
+chart.setAttribute('id', 'chart');
 
 $("button").click(function(){
     id = $(this).attr('id');
@@ -73,11 +76,17 @@ var back = function () {
 
 var final = function() {
 	if (totalScore >= 10) {
-	    
+		
+		incorrectAns = 10 - totalScore;
+		makeChart();
 		$("#quizDiv").append("<h3>Congratulations! Your final score was " + totalScore + "</h3>")
+		$("#quizDiv").append(chart);
 	}
 	else {
+		incorrectAns = 10 - totalScore;
+		makeChart();
 		$("#quizDiv").append("<h3>Sorry! Your final score was only " + totalScore + "</h3>")
+		$("#quizDiv").append(chart);
 	}
 };
 
