@@ -5,8 +5,8 @@ function makeChart() {
 ];
 var text = "";
 
-var width = 200;
-var height = 200;
+var width = 400;
+var height = 400;
 var thickness = 40;
 var duration = 750;
 var padding = 10;
