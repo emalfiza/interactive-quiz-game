@@ -64,22 +64,11 @@ body {
     }
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    /* to have smooth scroll effect */
-    scroll-behavior: smooth;
-}
-
-/* Nav bar of the page */
-
 /* to have the color changed when the scroltop() is greater than the height - main.js changes the color */
 
 .scrolled {
     box-shadow: 0 .5rem 1rem grey;
-    background-color: #ca2a67 !important;
+    background-color: #eeb932 !important;
     transition: background-color 400ms linear;
 }
 
@@ -101,7 +90,7 @@ body {
 #center {
     position: relative;
     width: 50%;
-    height: 25%;
+    height: 400px;
     margin: auto;
     border-radius: 20px;
     display: flex;
@@ -132,6 +121,14 @@ body {
     50% {
         border: 5px solid black;
         box-shadow: 0 0 30px white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #center {
+        width: 85%;
+        height: 600px;
+        margin: 0 auto;
     }
 }
 
@@ -189,6 +186,7 @@ body {
 }
 
 h1 {
+    padding: 10px 20px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
@@ -249,7 +247,7 @@ input[type="radio"] {
 #physics,
 #maths,
 #general {
-    background-color: rgba(225, 225, 225, 0.3);
+    background-color: rgba(225, 225, 225, 0.5);
     box-shadow: 0 0 10px yellow;
     border-color: yellow;
     margin: 8px 8px;
