@@ -185,7 +185,7 @@ body {
 #quiz {
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 h1 {
@@ -194,23 +194,23 @@ h1 {
     font-family: 'Tomorrow', sans-serif;
     font-size: 38px;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 
 h2 {
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 h3 {
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 label {
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 
@@ -233,13 +233,27 @@ input[type="radio"] {
     margin: 22px 42px;
 }
 
+#paragraph {
+    color: #ffffff;
+    font-family: 'Amiri', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+#paragraph>em {
+    color: yellow;
+    font-weight: bolder;
+}
+
 #physics,
 #maths,
 #general {
     background-color: rgba(225, 225, 225, 0.3);
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px yellow;
+    border-color: yellow;
     margin: 8px 8px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .start {
