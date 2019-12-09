@@ -120,7 +120,7 @@ var question = function (i) {
 };
 
 $(document).ready(function() {
-	$("#startButton").click(function() {
+	$(".startButton").click(function() {
 		$(this).hide();
 		question(questionNumber);
 	});

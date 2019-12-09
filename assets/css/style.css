@@ -102,7 +102,6 @@ body {
     position: relative;
     width: 50%;
     height: 25%;
-    ;
     margin: auto;
     border-radius: 20px;
     display: flex;
@@ -134,13 +133,6 @@ body {
         border: 5px solid black;
         box-shadow: 0 0 30px white;
     }
-}
-
-
-.btn-primary {
-    font-family: 'Amiri', Sans-Serif;
-    position: relative;
-    margin: auto;
 }
 
 /* */
@@ -225,23 +217,11 @@ label {
 #questionDiv {
     margin: 0 auto;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 0;
 }
 
 input[type="radio"] {
     padding: 10px 10px;
-}
-
-#startButton {
-    width: 20%;
-    margin: 0 auto;
-    height: 40px;
-    border-radius: 4px;
-    background-color: white;
-    font-size: 16px;
-    font-family: 'Amiri', sans-serif;
-    box-shadow: 0 0 10px gray;
-    margin-bottom: 40px;
 }
 
 #submitButton {
@@ -249,10 +229,26 @@ input[type="radio"] {
     margin-bottom: 40px;
 }
 
-#startButton:focus {
-    border-color: red;
+#physics,
+#maths,
+#general {
+    background-color: rgba(225, 225, 225, 0.3);
+    box-shadow: 0 0 10px red;
 }
 
+.start {
+    background-color: transparent;
+}
+
+.start:hover {
+    background-color: rgba(225, 225, 225, 0.3);
+}
+
+.startButton {
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 10px red;
+}
 
 /* d3.js css codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=1010 and slightly changed by myself. */
 
@@ -285,6 +281,7 @@ svg {
 
 
 /* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
+
 footer {
     background-color: #343a40!important;
     color: #fafafa;
