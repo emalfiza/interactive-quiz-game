@@ -29,7 +29,7 @@ $("button").click(function(){
     }
 });
 
-
+/* ---------------------------------------------------------*/
 var correct = function () {
 	totalScore += 1;
 	questionNumber += 1;
@@ -79,13 +79,26 @@ var final = function() {
 		
 		incorrectAns = 10 - totalScore;
 		makeChart();
-		$("#quizDiv").append("<h3>Congratulations! Your final score was " + totalScore + "</h3>")
+		$("#quizDiv").append("<h3>Congratulations! Your final score was " + totalScore + "</h3>");
+		
+		/* -- The start button at the end of the quiz game to reload the game -- */
+		reloadButton = document.createElement('button');
+		reloadButton.setAttribute('class', 'btn-lg');
+		reloadButton.setAttribute('onClick', 'reload();');
+		reloadButton.innerHTML = 'Start Again';
+		$("#quizDiv").append(reloadButton);
 		$("#quizDiv").append(chart);
 	}
 	else {
 		incorrectAns = 10 - totalScore;
 		makeChart();
-		$("#quizDiv").append("<h3>Sorry! Your final score was only " + totalScore + "</h3>")
+		$("#quizDiv").append("<h3>Sorry! Your final score was only " + totalScore + "</h3>");
+		
+		reloadButton = document.createElement('button');
+		reloadButton.setAttribute('class', 'btn-lg');
+		reloadButton.setAttribute('onClick', 'reload();');
+		reloadButton.innerHTML = 'Start Again';
+		$("#quizDiv").append(reloadButton);
 		$("#quizDiv").append(chart);
 	}
 };
@@ -125,3 +138,7 @@ $(document).ready(function() {
 		question(questionNumber);
 	});
 });
+
+function reload() {
+	location.reload();	
+}
