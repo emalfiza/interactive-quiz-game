@@ -101,7 +101,8 @@ body {
 #center {
     position: relative;
     width: 50%;
-    height: 25%;;
+    height: 25%;
+    ;
     margin: auto;
     border-radius: 20px;
     display: flex;
@@ -153,9 +154,12 @@ body {
     margin-left: 25%;
     border-radius: 20px;
     animation: newColorChange 50s infinite;
-    -webkit-animation: newColorChange 50s infinite;  /* vendor-prefixed properties for Chrome and Safari */
-    -moz-animation: newColorChange 50s infinite;     /* vendor-prefixed properties for FireFox */
-    -o-animation: newColorChange 50s infinite;       /* vendor-prefixed properties for Opera */
+    -webkit-animation: newColorChange 50s infinite;
+    /* vendor-prefixed properties for Chrome and Safari */
+    -moz-animation: newColorChange 50s infinite;
+    /* vendor-prefixed properties for FireFox */
+    -o-animation: newColorChange 50s infinite;
+    /* vendor-prefixed properties for Opera */
     /* Chrome and Safari */
 }
 
@@ -249,8 +253,38 @@ input[type="radio"] {
     border-color: red;
 }
 
-/* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
 
+/* d3.js css codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=1010 and slightly changed by myself. */
+
+.pie {
+    margin: 20px;
+}
+
+svg {
+    float: left;
+}
+
+.legend {
+    float: left;
+    font-family: "Verdana";
+    font-size: .7em;
+}
+
+.pie text {
+    font-family: "Verdana";
+    fill: #00000;
+}
+
+.pie .name-text {
+    font-size: 1.5em;
+}
+
+.pie .value-text {
+    font-size: 3em;
+}
+
+
+/* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
 footer {
     background-color: #343a40!important;
     color: #fafafa;
@@ -298,39 +332,14 @@ because I wanted my footer font family to match my navbar--*/
     color: #fafafa;
     background-color: #8f8f8f;
     transition: all 0.40s ease-in-out;
-    -moz-transition: all 0.40s ease-in-out;    /* vendor-prefixed properties for FireFox */ 
-    -webkit-transition: all 0.40s ease-in-out; /* vendor-prefixed properties for Chrome and Safari */ 
-    -o-transition: all 0.40s ease-in-out;      /* vendor-prefixed properties for Opera */ 
+    -moz-transition: all 0.40s ease-in-out;
+    /* vendor-prefixed properties for FireFox */
+    -webkit-transition: all 0.40s ease-in-out;
+    /* vendor-prefixed properties for Chrome and Safari */
+    -o-transition: all 0.40s ease-in-out;
+    /* vendor-prefixed properties for Opera */
 }
 
 .social-links li a i:hover {
-    background-color: #b35900;
-}
-
-/* d3.js css codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=1010 and slightly changed by myself. */ 
-.pie {
-  margin: 20px;
-}
-
-svg {
-    float: left;
-}
-
-.legend {
-  float: left;
-  font-family: "Verdana";
-  font-size: .7em;
-}
-
-.pie text {
-  font-family: "Verdana";
-  fill: #000;
-}
-
-.pie .name-text{
-  font-size: 1.5em;
-}
-
-.pie .value-text{
-  font-size: 3em;
+    background-color: #ffc107;
 }
