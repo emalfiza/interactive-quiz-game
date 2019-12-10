@@ -19,22 +19,22 @@
 <body>
     <!-- Bootstrap navbar to hold the nav bar for the page -->
     <header>
-        <nav id="mainNav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <nav id="mainNav" class="navbar navbar-expand-md bg-dark navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">Emal Fiza's Interactive Quiz Game</a>
             </div>
         </nav>
     </header>
-
+    <div class="wrapper">
         <!-- section to hold content for quiz game -->
         <section id="game">
             <!-- Bootsttrap predefined button class from the bootstarp ducomentation -->
             <div id="center">
-                <h1 class="heading1">TAKE THE QUIZ!</h1>
-                <p class="paragraph"><em>Exams</em> don't test your knowledge as they test your state of mind. Be relaxed and calm down, I am sure you will do fine. Best wishes to you!</p>
-                <button class="physics" type="button" class="btn btn-primary btn-lg">Physics</button>
-                <button class="maths" type="button" class="btn btn-primary btn-lg">Maths</button>
-                <button class="general" type="button" class="btn btn-primary btn-lg">General Knowledge</button>
+                <h1 id="heading1">TAKE THE QUIZ!</h1>
+                <p id="paragraph"><em>Exams</em> don't test your knowledge as they test your state of mind. Be relaxed and calm down, I am sure you will do fine. Best wishes to you!</p>
+                <button id="physics" type="button" class="btn btn-primary btn-lg">Physics</button>
+                <button id="maths" type="button" class="btn btn-primary btn-lg">Maths</button>
+                <button id="general" type="button" class="btn btn-primary btn-lg">General Knowledge</button>
             </div>
             <div id="fullQuiz">
                 <div class="startButton">
@@ -44,8 +44,7 @@
                 </div>
             </div>
         </section>
-    </main>
-
+    </div>
     <!--Footer html codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute-->
     <footer class="container-fluid footer">
         <div class="container">
@@ -103,8 +102,6 @@
     <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous">
     </script>
     <!-- Local JavaScript files links -->
-    <script type="text/javascript" src="assets/js/main.js">
-    </script>
     <script type="text/javascript" src="assets/js/questions.js">
     </script>
     <script type="text/javascript" src="assets/js/game.js">

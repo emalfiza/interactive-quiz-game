@@ -15,6 +15,15 @@ google font Amiri and Tomorrow imported from the google font for the entire proj
 
 @import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
 
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height:auto !important;
+    min-height:100%;
+}
+
 /* Animation colour change css code copied from CodePen and slightly changed by myself */
 
 body {
@@ -106,8 +115,7 @@ body {
 @media only screen and (max-width: 768px) {
     #center {
         width: 85%;
-        height: 480px;
-        margin: 0 auto;
+        height: 520px;
     }
 }
 
@@ -166,7 +174,6 @@ body {
 }
 
 h1 {
-    padding: 10px 20px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
@@ -207,11 +214,7 @@ input[type="radio"] {
     margin-bottom: 40px;
 }
 
-.heading1 {
-    margin: 22px 42px;
-}
-
-.paragraph {
+#paragraph {
     margin-right: 10px;
     margin-left: 10px;
     color: #ffffff;
@@ -221,33 +224,35 @@ input[type="radio"] {
     text-shadow: 2px 2px 2px black;
 }
 
-.paragraph>em {
+#paragraph>em {
     color: yellow;
     font-weight: bolder;
 }
 
-.physics,
-.maths,
-.general {
+#physics,
+#maths,
+#general {
+    color: #fff;
     width: 50%;
     background-color: rgba(225, 225, 225, 0.5);
     box-shadow: 0 0 10px yellow;
     border-color: yellow;
+    border-radius: 10px;
     margin: 0 auto;
     margin-top: 6px;
     margin-bottom: 6px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 
-.physics:hover {
+#physics:hover {
     background-color: rgba(225, 225, 225, 0.2);
 }
 
-.maths:hover {
+#maths:hover {
     background-color: rgba(225, 225, 225, 0.2);
 }
 
-.general:hover {
+#general:hover {
     background-color: rgba(225, 225, 225, 0.2);
 }
 
@@ -309,7 +314,6 @@ footer {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
