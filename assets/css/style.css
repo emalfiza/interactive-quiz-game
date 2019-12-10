@@ -15,13 +15,14 @@ google font Amiri and Tomorrow imported from the google font for the entire proj
 
 @import url('https://fonts.googleapis.com/css?family=Amiri:100,200,300,400,500,600,700|Tomorrow:100,200,300,400,500,600,700&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
 .wrapper {
-    height:auto !important;
-    min-height:100%;
+    height: auto !important;
+    min-height: 100%;
 }
 
 /* Animation colour change css code copied from CodePen and slightly changed by myself */
@@ -73,7 +74,20 @@ body {
     }
 }
 
-/* main content of the game page */
+/*  navbar of the page */
+
+#mainNav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mainNav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+/* center id containing the initial layout of the quiz game page */
 
 #center {
     position: relative;
@@ -119,7 +133,7 @@ body {
     }
 }
 
-/* */
+/* The fullQuiz id codes copied from https://codepen.io/kwikimart/pen/VjQQNK and slightly changed by myself */
 
 #fullQuiz {
     width: 65%;
@@ -162,6 +176,8 @@ body {
     }
 }
 
+/* media query added for the fullQuiz id to response all screen size smaller than 768 */
+
 @media only screen and (max-width: 767px) {
     #fullQuiz {
         width: 85%;
@@ -181,6 +197,8 @@ body {
     text-shadow: 2px 2px 2px black;
 }
 
+/* heading and paragraphs */
+
 h1 {
     margin: 0 auto;
     text-align: center;
@@ -190,7 +208,6 @@ h1 {
     text-shadow: 2px 2px 2px black;
 }
 
-
 h2 {
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -199,27 +216,6 @@ h2 {
 h3 {
     color: white;
     text-shadow: 2px 2px 2px black;
-}
-
-label {
-    color: white;
-    text-shadow: 2px 2px 2px black;
-}
-
-
-#questionDiv {
-    margin: 0 auto;
-    display: inline-block;
-    padding-right: 0;
-}
-
-input[type="radio"] {
-    padding: 10px 10px;
-}
-
-#submitButton {
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 #paragraph {
@@ -236,6 +232,8 @@ input[type="radio"] {
     color: yellow;
     font-weight: bolder;
 }
+
+/* buttons */
 
 #physics,
 #maths,
@@ -267,6 +265,7 @@ input[type="radio"] {
 .start {
     background-color: rgba(225, 225, 225, 0.5);
     border-color: yellow;
+    border-radius: 10px;
     text-shadow: 2px 2px 2px black;
     box-shadow: 0 0 10px yellow;
 }
@@ -281,6 +280,32 @@ input[type="radio"] {
     border-color: yellow;
     text-shadow: 2px 2px 2px black;
     box-shadow: 0 0 10px yellow;
+}
+
+label {
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#nextButton {
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    padding: 10px 10px;
+}
+
+
+#submitButton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#questionDiv {
+    margin: 0 auto;
+    display: inline-block;
+    padding-right: 0;
 }
 
 /* d3.js css codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=1010 and slightly changed by myself. */
