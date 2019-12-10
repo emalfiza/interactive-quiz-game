@@ -316,7 +316,7 @@ svg {
 /* Footer css codes copy pasted from my Stream One Project: User-Centric Frontend Development - project-kabul Code Institute */
 
 footer {
-    background-color: #343a40!important;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fafafa;
     min-height: 100px;
 }
@@ -358,8 +358,8 @@ because I wanted my footer font family to match my navbar--*/
     font-size: 15px;
     line-height: 12px;
     text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
+    color: #fafafa important;
+    background-color: black;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     /* vendor-prefixed properties for FireFox */
