@@ -80,4 +80,71 @@ For users, I wanted to provide them with an intermidiate level of knowledge abou
 * A d3.js v4 piechart to manifest the stats of the users performance.
 
 
+# Testing
 
+----
+
+The Overall idea of the website was created by myself. 
+
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox and Opera) and on multiple mobile devices (GalaxyS5, Pixel 2, Pixel 2XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8plus iPhone X, iPod, IPod Pro, MacBook Air and Desktop) to ensure compatibility and responsiveness.
+
+HTML codes were tested in w3c html validator. ![html](html.png)
+
+CSS3 codes were tested in w3c css validator. ![css](css.png)
+
+
+# Deployment
+
+----
+### Deployment onto GitHub
+
+1. `git init`
+
+2. `git add file name`
+
+3. `git commit -m "comment"`
+
+4. `orgin master copied from the github pages`
+
+5. `git push orgin master`
+
+6. `git status`
+
+7. `github username entered`
+
+8. `github password entered`
+
+Under my repository name, I clicked Settings. I scrolled down to the GitHub Pages section and used the Select source drop-down menu to select 'master' as my GitHub Pages publishing source.
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone` into your terminal. To cut ties with this GitHub repository, type`git remote rm origin` into the terminal.
+
+
+### Credits
+
+-----
+
+### Author
+
+Emal Fiza : Student of Code Institue 
+
+### Content
+
+The questions for all the 3 subjects are initiated written by Aamina Bhutta ( Leicester University Physics Student) content on the "Landing Page" is written by me.
+
+### Acknowledgements
+The Bootstrap 4 navbar classes and the btn-primary buttons class were taken from [getbootstrap](https://startbootstrap.com/snippets/full-image-background/)
+The Javascript game logic codes were taken and overwritten from [codepen](https://codepen.io/kwikimart/pen/VjQQNK)
+The piechart codes were taken and overwritten from [codepen.io](https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=0110)
+
+1.Housam Ziad guided and instructed me.
+
+2.irfanrizvidev helped me with JavaScript and piechart
+
+3.Aamina Bhutta helped me with the subjects questions
+
+
+
+
+**This is for educational**

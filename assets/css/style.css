@@ -323,7 +323,7 @@ input[type="radio"] {
 
 .pie text {
     font-family: "Verdana";
-    fill: #00000;
+    fill: #000000;
 }
 
 .pie .name-text {
@@ -380,7 +380,7 @@ because I wanted my footer font family to match my navbar--*/
     font-size: 15px;
     line-height: 12px;
     text-align: center;
-    color: #fafafa important;
+    color: #fafafa;
     background-color: black;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
