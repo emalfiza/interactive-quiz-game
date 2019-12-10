@@ -7,8 +7,8 @@ function makeChart() {
 
   /* The bellow codes copied from https://codepen.io/zakariachowdhury/pen/OWdyjq?editors=0110 and slightly changed to a pie chart at the end of the game  */
   var text = "";
-  var width = 400;
-  var height = 400;
+  var width = 200;
+  var height = 200;
   var thickness = 40;
   var duration = 750;
   var padding = 10;

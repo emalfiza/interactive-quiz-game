@@ -47,3 +47,37 @@ For users, I wanted to provide them with an intermidiate level of knowledge abou
 * As the website developer I want the content of the page to be presented in a user friendly and traditionally way to showcase the simplicity and beauty of technologies.
 * As the website developer I want to create a website which is subtle and visually appealing and pleasing with the very basics of software developing programming html, css and javascript.
 
+
+# Technologies
+
+------
+
+- [HTML](https://www.wikipedia.com/HTML)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://www.javascript.com/)
+- [Bootstap 4](https://getbootstrap.com/) 
+- [Google Fonts](https://fonts.google.com/)
+- [jQuery](https://jquery.com/)
+- [Popper.js](https://cdnjs.com/#)
+- [Font Awesome](https://fontawesome.com/)
+- [d3.js v4](https://d3js.org/)
+
+
+# Features
+
+---
+
+* A single scrolable page with colour change background.
+
+* A Bootstrap 4 navbar background colour transparent promote a minimalist and eye friendly design.
+
+* An eye catching and infinite changing colour div at the heart of the page to showcase the quiz game glooming subject buttons, h1 and a freindly paragraph.
+
+* A container-fluid class footer background colour transparent containing the social media icions to promote a rich contarst of colouring.
+
+* An eye catching and infinite changing colour div presenting the quiz game questions and options which reshape and response to all the screen sizes. 
+
+* A d3.js v4 piechart to manifest the stats of the users performance.
+
+
+

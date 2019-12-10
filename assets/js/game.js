@@ -90,6 +90,8 @@ var final = function() {
 		reloadButton.innerHTML = 'Start Again';
 		$("#quizDiv").append(reloadButton);
 		$("#quizDiv").append(chart);
+		$("#quizDiv").addClass('notransition');
+		
 	}
 	else {
 		incorrectAns = 10 - totalScore;
@@ -102,6 +104,7 @@ var final = function() {
 		reloadButton.innerHTML = 'Start Again';
 		$("#quizDiv").append(reloadButton);
 		$("#quizDiv").append(chart);
+		$("#quizDiv").addClass('notransition');
 	}
 };
 

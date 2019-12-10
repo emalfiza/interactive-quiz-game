@@ -315,10 +315,6 @@ input[type="radio"] {
     margin: 20px;
 }
 
-svg {
-    float: left;
-}
-
 .legend {
     float: left;
     font-family: "Verdana";
