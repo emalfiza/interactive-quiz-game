@@ -30,7 +30,7 @@ Each subject contains 10 intermediate questions along with 4 options which is on
 
 A live demo of the entire pages ![here](assets/images/game.gif)
 
-[Link to deployed website]()
+[Link to deployed website](https://emalfiza.github.io/interactive-quiz-game/)
 
 
 # UX
