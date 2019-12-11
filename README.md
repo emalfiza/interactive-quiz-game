@@ -88,7 +88,11 @@ For users, I wanted to provide them with an intermidiate level of knowledge abou
 
 The Overall idea of the website was created by myself. 
 
+As I am a levelUp scholarship student, I live in a accomodation centre where the residence have diffrent devices and rendering browswers. I have testd all the bellow mentioned browesers and devices by my own hands.
+
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox and Opera) and on multiple mobile devices (GalaxyS5, Pixel 2, Pixel 2XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8plus iPhone X, iPod, IPod Pro, MacBook Air and Desktop) to ensure compatibility and responsiveness.
+
+While testing the page in other devices the header and footer were position fixed and the page contents were overlapping by them. And also the changing color div for the buttons, for the quiz and the pie chart were wider than the page in the small screen sizes.
 
 HTML codes were tested in w3c html validator. ![html](assets/images/html.png)
 
