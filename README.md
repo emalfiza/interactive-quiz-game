@@ -28,7 +28,7 @@ Each subject contains 10 intermediate questions along with 4 options which is on
 
 ----
 
-A live demo of the entire pages ![here]()
+A live demo of the entire pages ![here](assets/images/game.gif)
 
 [Link to deployed website]()
 
@@ -88,9 +88,9 @@ The Overall idea of the website was created by myself.
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox and Opera) and on multiple mobile devices (GalaxyS5, Pixel 2, Pixel 2XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8plus iPhone X, iPod, IPod Pro, MacBook Air and Desktop) to ensure compatibility and responsiveness.
 
-HTML codes were tested in w3c html validator. ![html](html.png)
+HTML codes were tested in w3c html validator. ![html](assets/images/html.png)
 
-CSS3 codes were tested in w3c css validator. ![css](css.png)
+CSS3 codes were tested in w3c css validator. ![css](assets/images/css.png)
 
 
 # Deployment
