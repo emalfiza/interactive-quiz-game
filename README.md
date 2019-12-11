@@ -98,6 +98,7 @@ HTML codes were tested in w3c html validator. ![html](assets/images/html.png)
 
 CSS3 codes were tested in w3c css validator. ![css](assets/images/css.png)
 
+JavaScript codes tested in ![jshint](https://jshint.com/)
 
 # Deployment
 
